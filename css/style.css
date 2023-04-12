@@ -4,3 +4,10 @@ li.splide__slide {
 	justify-content: center;
 	max-width: 100vh;
 }
+
+[center]{
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+	flex-direction: column;
+}
