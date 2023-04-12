@@ -1,0 +1,185 @@
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  color: #757b87;
+}
+
+main section {
+  margin: 30px 0 100px;
+}
+
+.navbar-top {
+  background-color: #418BCA;
+}
+.navbar-top .icons {
+  padding: 10px 0;
+  margin: 0;
+}
+.navbar-top .icons li {
+  display: inline-block;
+  margin: 0 7px 4px;
+}
+.navbar-top .contacts {
+  padding: 10px 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.navbar-top .contacts li {
+  display: flex;
+  margin: 0 7px 4px;
+}
+.navbar-top .contacts li a:hover {
+  color: white;
+}
+.navbar-top .contacts li i {
+  padding: 0 5px;
+}
+
+.navbar {
+  padding: 15px 0;
+}
+.navbar .menu li {
+  display: inline-block;
+}
+.navbar .menu li a {
+  color: black;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 5px;
+  padding: 10px 10px;
+  transition: 0.4s;
+}
+.navbar .menu li a:hover {
+  background-color: #E7E7E7;
+}
+
+footer {
+  background-color: #262626;
+}
+footer .footer-text {
+  color: white;
+  padding: 20px 0px;
+}
+footer .footer-text h4 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+footer .copyright {
+  background-color: #1A1A1A;
+  color: white;
+  padding: 12px;
+}
+footer .copyright .container {
+  padding: 0;
+}
+footer .copyright p {
+  margin: 0;
+}
+
+#intro {
+  background: url("/assets/images/Baku.JPG") no-repeat 50% 40%/cover;
+  height: 600px;
+  margin: 0;
+}
+
+.intro-bg {
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+.intro-bg .headline {
+  padding-right: 30px;
+}
+.intro-bg .headline h1 {
+  font-size: 25px;
+  font-weight: 900;
+  color: #203138;
+  text-align: start;
+}
+.intro-bg .headline .text-right {
+  text-align: end;
+}
+
+.header h5 {
+  margin-top: 30px;
+  border-bottom: 2px solid #418bca;
+  padding-bottom: 5px;
+  text-align: center;
+  color: white;
+}
+.header h5 span {
+  background-color: #418BCA;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: 15px;
+  padding: 5px 15px;
+}
+
+.main-menu {
+  padding: 0 20px;
+}
+.main-menu .panel {
+  width: 100%;
+}
+.main-menu .panel .panel-heading {
+  color: #fff;
+  background-color: #418BCA;
+  border-color: #418BCA;
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.main-menu .panel .panel-heading .panel-title {
+  margin: 0;
+  text-align: center;
+  font-weight: 700;
+}
+.main-menu .panel .panel-body {
+  padding: 15px;
+}
+.main-menu .panel .panel-body ul {
+  padding: 0;
+  margin: 0;
+}
+.main-menu .panel .panel-body ul li {
+  background-color: #F4FAFF;
+  transition: 0.2s;
+}
+.main-menu .panel .panel-body ul li a {
+  display: block;
+  color: #666;
+  padding: 10px 10px 10px 25px;
+}
+.main-menu .panel .panel-body ul li:hover {
+  background-color: #EFEFEF;
+}
+.main-menu .panel .panel-body ul li:hover a {
+  color: #418BCA;
+}
+.main-menu .panel .panel-body ul .home {
+  background-color: #ddd;
+  border-bottom: 3px solid white;
+}
+.main-menu .panel .panel-body .text-center {
+  margin: 20px 0 20px;
+}
+.main-menu .panel .panel-body .venue {
+  text-align: center;
+}
+.main-menu .panel .left-menu {
+  padding: 0;
+}/*# sourceMappingURL=style.css.map */

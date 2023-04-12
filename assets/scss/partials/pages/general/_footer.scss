@@ -1,0 +1,23 @@
+footer{
+    background-color: #262626;
+    .footer-text{
+        color: white;
+        padding: 20px 0px;
+        h4{
+            font-size: 18px;
+            font-weight: 400;
+            margin: 10px 0;
+        }
+    }
+    .copyright{
+        background-color: #1A1A1A;
+        color: white;
+        padding: 12px;
+        .container{
+            padding: 0;
+        }
+        p{
+            margin: 0;
+        }
+    }
+}
