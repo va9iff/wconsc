@@ -184,28 +184,49 @@
 
         <!-- MAIN SECTION END -->
 
-        <h2 class="container" style="text-align: center;">
-        Gallery
-        </h2>
-            
         <section class="splide" aria-label="Splide Basic HTML Example">
           <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide"><img width="80%" src="./slider/foto1.jpg"></li>
                     <li class="splide__slide"><img width="80%" src="./slider/foto2.jpg"></li>
-                    <li class="splide__slide"><img width="80%" src="./slider/foto3.webp"></li>
+                    <li class="splide__slide"><img width="80%" src="./slider/foto3.jpg"></li>
                 </ul>
           </div>
         </section>
         <script src="slider/splide.min.js"></script>
+        <script src="slider/splide-extension-auto-scroll.min.js"></script>
         <script>
-            var splide = new Splide( '.splide', {
+            // var splide = new Splide( '.splide', {
+            //   type   : 'loop',
+            //   padding: '5rem',
+            //   autoScroll: {
+            //     speed: 2,
+            //   },
+            // } );
+            // splide.mount(window.splide.Extensions);
+            const splide = new Splide( '.splide', {
               type   : 'loop',
-              padding: '5rem',
+              drag   : 'free',
+              // arrowPath: '',
+              focus  : 'center',
+              perPage: 3,
+              autoScroll: {
+                speed: -1,
+                  pauseOnHover: false,
+                  pauseOnFocus: false,
+              },
             } );
-            splide.mount();
-            console.log(splide)
+
+            splide.mount(window.splide.Extensions);
+
+            // console.log(splide)
         </script>
+        <style>
+            .splide__arrow  {
+/*                display: none;*/
+                transform: scale(1.4);
+            }
+        </style>
 
 
     </main>
