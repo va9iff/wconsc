@@ -11,3 +11,8 @@ li.splide__slide {
 	justify-content: center;	
 	flex-direction: column;
 }
+
+.intro-bg .headline h1{
+	font-weight: 700;
+	color: #28576a;
+}
